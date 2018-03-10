@@ -1,0 +1,30 @@
+﻿@using Lab2_Edwin_Ana.Models;
+
+{
+    ViewBag.Title = "Index";
+}
+
+@model IEnumerable<string>
+<h2>Jugador</h2>
+
+@Html.ActionLink("Nuevo elemento", "IngresoStringManual")|||
+@Html.ActionLink("Mostrar en In-Orden", "RetornoInOrdenString")|||
+@Html.ActionLink("Mostrar en Post-Orden", "RetornoPostOrdenString")|||
+@Html.ActionLink("Mostrar en Pre-Orden", "RetornoPreOrdenString")|||
+<table class="table">
+    <tr>
+        <th>
+           <label>Cadena</label>
+        </th>
+        
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item)
+            </td>
+        </tr>
+    }
+    </table>

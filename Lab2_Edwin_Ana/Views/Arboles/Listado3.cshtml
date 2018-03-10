@@ -1,0 +1,30 @@
+﻿{
+    ViewBag.Title = "Index";
+}
+@using Lab2_Edwin_Ana.Models;
+@model IEnumerable<int>
+<h2>Jugador</h2>
+<label>El listado se retorna com preorden al salir el listado</label>
+@Html.ActionLink("Nuevo elemento", "IngresoIntManual")|||
+@Html.ActionLink("Mostrar en In-Orden", "RetornoInOrdenInt")|||
+@Html.ActionLink("Mostrar en Post-Orden", "RetornoPostOrdenInt")|||
+@Html.ActionLink("Mostrar en Pre-Orden", "RetornoPreOrdenInt")|||
+<table class="table">
+    <tr>
+        <
+        <th>
+           <label>Valor</label>
+        </th>
+       
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item)
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,36 @@
+﻿{
+    ViewBag.Title = "Index";
+}
+@using Lab2_Edwin_Ana.Models;
+@model IEnumerable<Pais>
+<h2>Jugador</h2>
+@Html.ActionLink("Nuevo Pais", "IngresoPaisManual")|||
+@Html.ActionLink("Mostrar en In-Orden", "RetornoInOrdenPais")|||
+@Html.ActionLink("Mostrar en Post-Orden", "RetornoPostOrdenPais")|||
+@Html.ActionLink("Mostrar en Pre-Orden", "RetornoPreOrdenPais")|||
+<table class="table">
+    <tr>
+        <th>
+            <label>Nombre</label>
+        </th>
+        <th>
+            <label>Club</label>
+        </th>
+        
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grupo)
+            </td>
+
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "IngresoPais";
+}
+
+<h2>IngresoPais</h2>
+<label>Carga de modo automatico</label>
+@using (Html.BeginForm("IngresoPais", "Arboles", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div>
+    <input type="file" name="archivo" />
+    <input type="submit" value="Importar" />
+    @Html.ActionLink("Nuevo Pais", "IngresoPaisManual")|||
+</div>
+}

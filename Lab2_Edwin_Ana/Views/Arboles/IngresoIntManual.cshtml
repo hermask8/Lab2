@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "IngresoIntManual";
+}
+
+<h2>IngresoIntManual</h2>
+
+@using (Html.BeginForm("IngresoIntManual", "Arboles", FormMethod.Post))
+{
+    <div>
+        <label>Nombre</label>
+        <input type="text" name="ingreso" />
+        <input type="submit" value="Ingresar" />
+
+    </div>
+}

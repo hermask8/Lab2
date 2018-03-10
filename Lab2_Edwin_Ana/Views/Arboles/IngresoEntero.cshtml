@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "IngresoEntero";
+}
+
+<h2>IngresoEntero</h2>
+<label>Carga de modo automatico</label>
+@using (Html.BeginForm("IngresoEntero", "Arboles", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div>
+    <input type="file" name="archivo" />
+    <input type="submit" value="Importar" />
+    @Html.ActionLink("Nuevo elemento", "IngresoIntManual")|||
+</div>
+}

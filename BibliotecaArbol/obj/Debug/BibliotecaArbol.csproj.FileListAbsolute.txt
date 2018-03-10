@@ -1,0 +1,6 @@
+C:\Users\Edwin Hilario\Documents\URL\progra\Estructuras\Practica\Lab2_Edwin_Ana\BibliotecaArbol\bin\Debug\BibliotecaArbol.dll
+C:\Users\Edwin Hilario\Documents\URL\progra\Estructuras\Practica\Lab2_Edwin_Ana\BibliotecaArbol\bin\Debug\BibliotecaArbol.pdb
+C:\Users\Edwin Hilario\Documents\URL\progra\Estructuras\Practica\Lab2_Edwin_Ana\BibliotecaArbol\obj\Debug\BibliotecaArbol.csprojResolveAssemblyReference.cache
+C:\Users\Edwin Hilario\Documents\URL\progra\Estructuras\Practica\Lab2_Edwin_Ana\BibliotecaArbol\obj\Debug\BibliotecaArbol.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Hilario\Documents\URL\progra\Estructuras\Practica\Lab2_Edwin_Ana\BibliotecaArbol\obj\Debug\BibliotecaArbol.dll
+C:\Users\Edwin Hilario\Documents\URL\progra\Estructuras\Practica\Lab2_Edwin_Ana\BibliotecaArbol\obj\Debug\BibliotecaArbol.pdb
